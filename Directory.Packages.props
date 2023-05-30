@@ -16,11 +16,13 @@
     <PackageVersion Include="XamlNameReferenceGenerator" Version="1.6.1" />
     <PackageVersion Include="AlphaFS" Version="2.2.6" />
     <PackageVersion Include="AltCover" Version="8.6.14" />
+    <PackageVersion Include="Cowsay" Version="1.1.10" />
     <PackageVersion Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.2.2" />
     <PackageVersion Include="Bearz.Extensions.Secrets.Abstractions" Version="0.1.0-build.32" />
     <PackageVersion Include="Bearz.Extensions.Secrets" Version="0.1.0-build.32" />
     <PackageVersion Include="Bearz.Security.Cryptography" Version="0.1.0-build.32" />
     <PackageVersion Include="Bearz.Extensions.Hosting.CommandLine" Version="0.1.0-build.32" />
+    <PackageVersion Include="Bearz.Xunit.Core" Version="0.1.0-build.32" />
     <PackageVersion Include="Bearz.Text.DotEnv" Version="0.1.0-build.32" />
     <PackageVersion Include="Chocolatey.NuGet.Commands" Version="3.0.0" />
     <PackageVersion Include="Chocolatey.NuGet.Common" Version="3.0.0" />
@@ -72,8 +74,6 @@
     <PackageVersion Include="Nullable" Version="1.3.1" />
     <PackageVersion Include="IsExternalInit" Version="1.0.3" />
     <PackageVersion Include="Nerdbank.GitVersioning" Version="3.5.119" />
-    <PackageVersion Include="Mapster" Version="7.3.0" />
-    <PackageVersion Include="Mapster.EFCore" Version="5.1.0" />
     <PackageVersion Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
     <PackageVersion Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.3" />
     <PackageVersion Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.3" />
@@ -119,6 +119,5 @@
     <PackageVersion Include="xunit.runner.visualstudio.utility" Version="2.4.3" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.3" />
     <PackageVersion Include="xunit.runner.utility" Version="2.4.1" />
-    <PackageVersion Include="YamlDotNet" Version="12.3.1" />
   </ItemGroup>
 </Project>

@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Say.Core", "Say.Core", "{7F07D03E-8556-4D14-8870-6CDEB0EF4D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearz.Say.Core", "Say.Core\src\Bearz.Say.Core.csproj", "{A9F9F777-6E8C-4B4B-B806-7C9BD5A3E7A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BearzSay", "BearzSay", "{2378F7F9-E4FF-4AD8-BC03-95E40B359DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearzSay", "BearzSay\src\BearzSay.csproj", "{8385C41B-3D01-4D15-B3BA-772A819C3B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F9F777-6E8C-4B4B-B806-7C9BD5A3E7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F9F777-6E8C-4B4B-B806-7C9BD5A3E7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F9F777-6E8C-4B4B-B806-7C9BD5A3E7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F9F777-6E8C-4B4B-B806-7C9BD5A3E7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8385C41B-3D01-4D15-B3BA-772A819C3B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8385C41B-3D01-4D15-B3BA-772A819C3B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8385C41B-3D01-4D15-B3BA-772A819C3B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8385C41B-3D01-4D15-B3BA-772A819C3B24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9F9F777-6E8C-4B4B-B806-7C9BD5A3E7A2} = {7F07D03E-8556-4D14-8870-6CDEB0EF4D5E}
+		{8385C41B-3D01-4D15-B3BA-772A819C3B24} = {2378F7F9-E4FF-4AD8-BC03-95E40B359DEF}
 	EndGlobalSection
 EndGlobal
