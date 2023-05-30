@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Cowsay;
+using Bearz.Say.Core;
 
-var cow = await DefaultCattleFarmer.RearCowWithDefaults("bearface");
-Console.WriteLine(cow.Say("Hello World!"));
+var phrase = args.SingleOrDefault() ?? "Hello World!";
+
+var bear = BearzTamer.Default.TameBear("bearface");
+Console.WriteLine(bear.Say(phrase));

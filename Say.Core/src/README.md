@@ -1,28 +1,26 @@
 # Bearz.Say.Core
-<a name="top"></a>
 
 ## Description
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+Extends the Cowsay library with synchronous methods.
 
-## Features 
+## Features
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [X] Extends the Cowsay library synchronous methods.
+- [ ] Scan text and change the eyes for the bearz, cows.
+- [ ] Add additional bear ascii art.
 
-## Installation
+### Example
 
-```powershell
-dotnet add package Bearz.Say.Core
+```csharp
+using Bearz.Say.Core;
+
+var phrase = args.SingleOrDefault() ?? "Hello World!";
+
+var bear = BearzTamer.Default.TameBear("bearface");
+Console.WriteLine(bear.Say(phrase));
 ```
 
-```powershell 
-<PackageReference Include="Bearz.Say.Core" Version="*" />
-```
+## License
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## License 
-
-{{ license }}
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+MIT
